@@ -1,0 +1,13 @@
+C:\Users\camel\Desktop\faculta2\pdp\lab4\lab4.1\obj\Debug\netcoreapp3.1\lab4.1.csprojAssemblyReference.cache
+C:\Users\camel\Desktop\faculta2\pdp\lab4\lab4.1\obj\Debug\netcoreapp3.1\lab4.1.csproj.CoreCompileInputs.cache
+C:\Users\camel\Desktop\faculta2\pdp\lab4\lab4.1\obj\Debug\netcoreapp3.1\lab4.1.AssemblyInfoInputs.cache
+C:\Users\camel\Desktop\faculta2\pdp\lab4\lab4.1\obj\Debug\netcoreapp3.1\lab4.1.AssemblyInfo.cs
+C:\Users\camel\Desktop\faculta2\pdp\lab4\lab4.1\bin\Debug\netcoreapp3.1\lab4.1.exe
+C:\Users\camel\Desktop\faculta2\pdp\lab4\lab4.1\bin\Debug\netcoreapp3.1\lab4.1.deps.json
+C:\Users\camel\Desktop\faculta2\pdp\lab4\lab4.1\bin\Debug\netcoreapp3.1\lab4.1.runtimeconfig.json
+C:\Users\camel\Desktop\faculta2\pdp\lab4\lab4.1\bin\Debug\netcoreapp3.1\lab4.1.runtimeconfig.dev.json
+C:\Users\camel\Desktop\faculta2\pdp\lab4\lab4.1\bin\Debug\netcoreapp3.1\lab4.1.dll
+C:\Users\camel\Desktop\faculta2\pdp\lab4\lab4.1\bin\Debug\netcoreapp3.1\lab4.1.pdb
+C:\Users\camel\Desktop\faculta2\pdp\lab4\lab4.1\obj\Debug\netcoreapp3.1\lab4.1.dll
+C:\Users\camel\Desktop\faculta2\pdp\lab4\lab4.1\obj\Debug\netcoreapp3.1\lab4.1.pdb
+C:\Users\camel\Desktop\faculta2\pdp\lab4\lab4.1\obj\Debug\netcoreapp3.1\lab4.1.genruntimeconfig.cache
