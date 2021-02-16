@@ -18,12 +18,12 @@ public class Task implements Runnable{
     public void run() {
         for (int index = start; index < end; index++) {
             //case - no more elements to calculate
-            if (index > (result.getDegree() + 1)) {
+            if (index > result.getDegree() + 1) {
                 return;
             }
             //find all the pairs that we add to obtain the value of a result coefficient
             for (int j = 0; j <= index; j++) {
-                if (j < (result.getDegree() + 1) && (index - j) < (result.getDegree() + 1)) {
+                if (j < (p1.getDegree() + 1) && (index - j) < (p2.getDegree() + 1)) {
                     int value = p1.getCoefficients().get(j) * p2.getCoefficients().get(index - j);
                     result.getCoefficients().set(index, result.getCoefficients().get(index) + value);
                 }

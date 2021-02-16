@@ -7,7 +7,10 @@ public class Polynomial {
         this.coefficients = c;
     }
     public Polynomial(int degree) {
-        this.coefficients = new ArrayList<>(degree);
+        this.coefficients = new ArrayList<>();
+        for( int i=0; i < degree; i ++){
+            coefficients.add(0);
+        }
     }
     public int getDegree(){
         return this.coefficients.size() - 1;
@@ -18,41 +21,38 @@ public class Polynomial {
     public void setCoefficient(int index, int value){
         this.coefficients.set(index, value);
     }
-    public Polynomial plus(Polynomial a) {
-        int actualsize = this.coefficients.size() -1;
-        int maxlen = Math.max(this.coefficients.size() -1, a.getDegree());
-        List<Integer> newCoefficients = new ArrayList<>();
-        for ( int i =0; i < maxlen; i++){
-            if(i < actualsize && i < a.getDegree()){
-                newCoefficients.add(this.coefficients.get(i) + a.getCoefficients().get(i));
-            } else if(i > actualsize && i < a.getDegree()){
-                newCoefficients.add(a.getCoefficients().get(i));
-            } else if (i < actualsize && i > a.getDegree()){
-                newCoefficients.add(this.coefficients.get(i));
-            }
-        }
-         Polynomial result = new Polynomial(newCoefficients);
-        return result;
+    @Override
+    public String toString() {
+        return "Polynomial{" +
+                "coefficients=" + coefficients +
+                '}';
     }
-    public Polynomial minus(Polynomial a) {
-        int actualsize = this.coefficients.size() -1;
-        int maxlen = Math.max(this.coefficients.size() -1, a.getDegree());
+
+    public Polynomial minus(Polynomial a, Polynomial b) {
+        int actualsize = a.getDegree();
+        int maxlen = Math.max(b.getDegree(), a.getDegree());
         List<Integer> newCoefficients = new ArrayList<>();
         for ( int i =0; i < maxlen; i++){
-            if(i < actualsize && i < a.getDegree()){
-                newCoefficients.add(this.coefficients.get(i) - a.getCoefficients().get(i));
-            } else if(i > actualsize && i < a.getDegree()){
-                newCoefficients.add(-a.getCoefficients().get(i));
+            if(i < a.getDegree() && i < a.getDegree()){
+                newCoefficients.add(a.coefficients.get(i) - b.getCoefficients().get(i));
+            } else if(i > a.getDegree() && i < a.getDegree()){
+                newCoefficients.add(-b.getCoefficients().get(i));
             } else if (i < actualsize && i > a.getDegree()){
-                newCoefficients.add(this.coefficients.get(i));
+                newCoefficients.add(a.coefficients.get(i));
             }
         }
         Polynomial result = new Polynomial(newCoefficients);
         return result;
     }
-    public void addZeros(int n){
-        for ( int i = 0; i < n; i ++){
-            this.coefficients.add(0);
+    public Polynomial addZeros(Polynomial a, int n){
+        List<Integer> newCoefficients = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            newCoefficients.add(0);
         }
+        for (int i = 0; i < a.getDegree() + 1; i++) {
+            newCoefficients.add(a.coefficients.get(i));
+        }
+//        this.coefficients = newCoefficients;
+        return new Polynomial(newCoefficients);
     }
 }

@@ -1,0 +1,53 @@
+﻿  board.cpp
+  parallel.cpp
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\parallel.cpp(105,23): error C2131: expression did not evaluate to a constant
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\parallel.cpp(105,23): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\parallel.cpp(105,23): message : see usage of 'numThreads'
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\parallel.cpp(8,54): error C2086: 'TSPriorityQueue<MyState *,MyStateHash,MyStateEqual> open': redefinition
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\parallel.cpp(8): message : see declaration of 'open'
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\parallel.cpp(9,5): error C2374: 'lock': redefinition; multiple initialization
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\parallel.cpp(9): message : see declaration of 'lock'
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\parallel.cpp(10,5): error C2086: 'int numBuckets': redefinition
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\parallel.cpp(10): message : see declaration of 'numBuckets'
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\parallel.cpp(12,6): error C2084: function 'bool handle_tick(void)' already has a body
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\parallel.cpp(12): message : see previous definition of 'handle_tick'
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\parallel.cpp(28,7): error C2084: function 'void *parallelThread(void *)' already has a body
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\parallel.cpp(28): message : see previous definition of 'parallelThread'
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\parallel.cpp(38,17): error C2065: 'handle_tick': undeclared identifier
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\parallel.cpp(71,6): error C2084: function 'void createPath(void)' already has a body
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\parallel.cpp(71): message : see previous definition of 'createPath'
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\parallel.cpp(92,6): error C2084: function 'void parallel(int)' already has a body
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\parallel.cpp(92): message : see previous definition of 'parallel'
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\parallel.cpp(105,23): error C2131: expression did not evaluate to a constant
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\parallel.cpp(105,23): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\parallel.cpp(105,23): message : see usage of 'numThreads'
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\parallel.cpp(116,5): error C2065: 'createPath': undeclared identifier
+  priorityqueue.cpp
+  sequential.cpp
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\parallel.cpp(105,23): error C2131: expression did not evaluate to a constant
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\parallel.cpp(105,23): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\parallel.cpp(105,23): message : see usage of 'numThreads'
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\sequential.cpp(9,6): error C2084: function 'void sequential(void)' already has a body
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\sequential.cpp(9): message : see previous definition of 'sequential'
+  Source.cpp
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\Source.cpp(14,10): error C2374: 'start': redefinition; multiple initialization
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\Source.cpp(14): message : see declaration of 'start'
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\Source.cpp(15,10): error C2374: 'goal': redefinition; multiple initialization
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\Source.cpp(15): message : see declaration of 'goal'
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\Source.cpp(17,18): error C2086: 'std::vector<MyState *,std::allocator<MyState *>> path': redefinition
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\Source.cpp(17): message : see declaration of 'path'
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\Source.cpp(18,5): error C2374: 'numThreads': redefinition; multiple initialization
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\Source.cpp(18): message : see declaration of 'numThreads'
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\Source.cpp(19,5): error C2374: 'bucketMultiplier': redefinition; multiple initialization
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\Source.cpp(19): message : see declaration of 'bucketMultiplier'
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\parallel.cpp(105,23): error C2131: expression did not evaluate to a constant
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\parallel.cpp(105,23): message : failure was caused by a read of a variable outside its lifetime
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\parallel.cpp(105,23): message : see usage of 'numThreads'
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\Source.cpp(51,50): error C2088: '<<': illegal for class
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\Source.cpp(63,9): error C3861: 'sequential': identifier not found
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\Source.cpp(26,5): error C2084: function 'int main(int,char *[])' already has a body
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\Source.cpp(26): message : see previous definition of 'main'
+C:\Users\camel\Desktop\faculta2\pdp\FinalProject\FinalProject\Source.cpp(51,50): error C2088: '<<': illegal for class
+  state.cpp
+  tspriorityqueue.cpp
+  Generating Code...
